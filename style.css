@@ -1,0 +1,88 @@
+/* Paul Graham 风格极简样式 */
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    background: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 520px;
+    margin: 40px auto;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bio {
+    color: #666;
+    font-size: 14px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+a {
+    color: #333;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #000;
+}
+
+.article-list {
+    list-style: none;
+    padding: 0;
+}
+
+.article-list li {
+    margin: 8px 0;
+}
+
+.date {
+    color: #999;
+    font-size: 13px;
+}
+
+/* 文章页样式 */
+.article h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.article .meta {
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.article p {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.footer {
+    color: #999;
+    font-size: 13px;
+}
